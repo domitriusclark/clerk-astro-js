@@ -1,4 +1,4 @@
-# Community Clerk + Astro + React starter
+# Community Clerk + Astro (JS) starter
 
 ## What's inside?
 
@@ -16,7 +16,7 @@ In this starter you'll find examples of:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/domitriusclark/astro-clerk-react
+git clone https://github.com/domitriusclark/astro-clerk-js
 ```
 
 2. Install dependencies
