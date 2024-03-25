@@ -22,7 +22,7 @@ const user = await Astro.locals.currentUser();
         <a href="/" class="">Home</a>
       </li>
       <SignedOut>
-        <li>
+        <li style="">
           <a href="/sign-in" class="sign-in-button">Sign In</a>
         </li>
       </SignedOut>
@@ -56,14 +56,6 @@ const user = await Astro.locals.currentUser();
 
   a {
     text-decoration: none;
-  }
-
-  a:visited {
-    color: white;
-  }
-
-  a:hover {
-    text-decoration: underline;
   }
 
   .sign-in-button {
